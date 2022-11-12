@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(231, 233, 236);
+}
+
+div .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+div .new {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.new button {
+  background-color: rgb(77, 104, 169);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-style: none;
+  border-radius: 3px;
+  margin: 5px 5px 5px 0;
+}
+
+div .post {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
