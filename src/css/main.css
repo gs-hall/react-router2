@@ -11,18 +11,23 @@ div .container {
 div .new {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   border-radius: 4px;
   background-color: white;
 }
 
-.new button {
+.button {
   background-color: rgb(77, 104, 169);
   color: white;
   padding: 5px 5px 5px 5px;
   border-style: none;
   border-radius: 3px;
   margin: 5px 5px 5px 0;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.button a {
+  text-decoration: none;
 }
 
 div .post {
@@ -30,4 +35,43 @@ div .post {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+div .clickable {
+  cursor: pointer;
+}
+
+div .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+div .actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+a.secondary {
+  text-decoration: solid;
+  text-decoration-line:underline;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.alert {
+  background-color: firebrick;
+}
+
+div .skeleton {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
 }
