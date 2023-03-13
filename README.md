@@ -1,2 +1,2 @@
-# netology-react-router2
+# react-router2
 crud
